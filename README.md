@@ -10,14 +10,17 @@ Teaches OpenClaw agents the optimal pattern for Twitter access:
 
 ## Installation
 
+From GitHub:
+
 ```bash
-openclaw skill install twitter-read.skill
+openclaw skill install https://github.com/clawdbotatg/twitter-read-skill/raw/main/twitter-read/SKILL.md
 ```
 
-Or from GitHub:
+Or clone and symlink:
 
 ```bash
-openclaw skill install https://github.com/clawdbotatg/twitter-read-skill/raw/main/twitter-read.skill
+git clone https://github.com/clawdbotatg/twitter-read-skill.git
+openclaw skill install ./twitter-read-skill/twitter-read
 ```
 
 ## Features
